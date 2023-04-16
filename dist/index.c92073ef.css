@@ -23,8 +23,27 @@ header nav {
 }
 
 header nav .header_logo {
-  color: #022279;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+header nav .header_logo p {
+  color: #ffb901;
   font-size: 2rem;
+  font-weight: bold;
+}
+
+header nav .header_logo p span {
+  color: #022279;
+}
+
+@media (max-width: 900px) {
+  header nav .header_logo p {
+    font-size: 1.2rem;
+  }
 }
 
 header nav .nav_list {
@@ -43,7 +62,7 @@ header nav .nav_list {
     flex-direction: column;
     flex-wrap: none;
     opacity: 0;
-    background-color: #fff;
+    background-image: linear-gradient(333deg, #000f37 0%, #02649b 100%);
     justify-content: space-evenly;
     align-items: center;
     transition: opacity .5s;
@@ -67,6 +86,14 @@ header nav .nav_list li {
 header nav .nav_list li a {
   color: #022279;
   font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  header nav .nav_list li a {
+    color: #fff;
+    font-size: 2.5rem;
+  }
 }
 
 header nav .nav_list.active {
