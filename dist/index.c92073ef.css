@@ -144,6 +144,12 @@ header nav .mobile.active .line3 {
   position: relative;
 }
 
+@media (max-width: 900px) {
+  #home {
+    height: 95vh;
+  }
+}
+
 #home .home_content {
   width: 40%;
   min-width: 300px;
@@ -157,12 +163,18 @@ header nav .mobile.active .line3 {
 
 #home .home_content h1 {
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #home .home_content p {
   margin-bottom: 20px;
   font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  #home .home_content p {
+    font-size: 1rem;
+  }
 }
 
 #home .home_content span {
