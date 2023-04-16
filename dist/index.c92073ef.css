@@ -92,7 +92,7 @@ header nav .nav_list li a {
 @media (max-width: 900px) {
   header nav .nav_list li a {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -100,18 +100,18 @@ header nav .nav_list.active {
   opacity: 1;
 }
 
-header nav .mobile {
+header nav .mobile_menu {
   cursor: pointer;
   display: none;
 }
 
 @media (max-width: 900px) {
-  header nav .mobile {
+  header nav .mobile_menu {
     display: block;
   }
 }
 
-header nav .mobile div {
+header nav .mobile_menu div {
   height: 2px;
   width: 30px;
   background-color: #022279;
@@ -119,15 +119,15 @@ header nav .mobile div {
   transition: all .5s;
 }
 
-header nav .mobile.active .line1 {
+header nav .mobile_menu.active .line1 {
   transform: rotate(-45deg)translate(-8px, 8px);
 }
 
-header nav .mobile.active .line2 {
+header nav .mobile_menu.active .line2 {
   opacity: 0;
 }
 
-header nav .mobile.active .line3 {
+header nav .mobile_menu.active .line3 {
   transform: rotate(45deg)translate(-5px, -7px);
 }
 
