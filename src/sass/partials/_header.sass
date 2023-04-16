@@ -7,6 +7,7 @@ header
   background-color: variables.$color_white
   position: fixed
   z-index: 10000
+  outline: 2px solid variables.$color_secondary 
   
   nav
     height: 100%
@@ -49,10 +50,20 @@ header
           font-weight: bold
           color: variables.$color_primary
           font-size: variables.$text_size
+          transition: .5s
+
+          &:hover
+            color: variables.$color_secondary
+            font-size: variables.$text_size *1.1
+            text-decoration: underline
+
+            @include mixins.mobile
+             font-size: variables.$subT_size *1.1
 
           @include mixins.mobile
             font-size: variables.$subT_size
             color: variables.$color_white
+
 
     .nav_list.active
       opacity: 1

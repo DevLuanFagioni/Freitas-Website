@@ -11,6 +11,7 @@ header {
   background-color: #ffffff;
   position: fixed;
   z-index: 10000;
+  outline: 2px solid #ffb901;
 }
 header nav {
   height: 100%;
@@ -77,6 +78,17 @@ header nav .nav_list li a {
   font-weight: bold;
   color: #022279;
   font-size: 1.2rem;
+  transition: 0.5s;
+}
+header nav .nav_list li a:hover {
+  color: #ffb901;
+  font-size: 1.32rem;
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  header nav .nav_list li a:hover {
+    font-size: 2.2rem;
+  }
 }
 @media (max-width: 900px) {
   header nav .nav_list li a {
