@@ -4,14 +4,15 @@
 header
   width: 100%
   height: 8vh
-  background-color: #292828 
+  background-color: variables.$color_white 
   
   nav
     height: 100%
     @include mixins.flex(row, center, space-around, none)
     
     .header_logo
-      color: variables.$color_white
+      color: variables.$color_primary
+      font-size: variables.$subT_size
 
     .nav_list
       list-style: none
@@ -23,7 +24,7 @@ header
         right: 0
         width: 50vh
         height: 92vh
-        background-color: #292828
+        background-color: variables.$color_white
         @include mixins.flex(column,center,space-evenly,none)
         opacity: 0
         transition: opacity .5s ease
@@ -34,7 +35,8 @@ header
         @include mixins.mobile_menu
           margin-left: 0
         a
-          color: variables.$color_white
+          color: variables.$color_primary
+          font-size: variables.$text_size
 
     .nav_list.active
       opacity: 1
@@ -50,7 +52,7 @@ header
         height: 2px
         width: 30px
         margin: 8px
-        background-color: variables.$color_white
+        background-color: variables.$color_primary
         transition: .5s
 
       &.active .line1
