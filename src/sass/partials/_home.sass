@@ -6,6 +6,33 @@
   height: 90vh
   background: linear-gradient(333deg, rgba(0,15,55,1) 0%, rgba(2,100,155,1) 100%)
   position: relative
+  @include mixins.flex(column,flex-start,center,none)
+  @include mixins.container
+
+  .home_content
+    width: 40%
+    min-width: 300px
+    @include mixins.flex(column,flex-start,center,none)
+    color: variables.$color_white
+
+    h1 
+      font-size: variables.$title_size
+      margin-bottom: 20px
+
+    p
+      font-size: variables.$text_size
+      margin-bottom: 20px
+
+    span
+      margin-bottom: 10px
+
+    a 
+      margin-top: 10px
+      color: variables.$color_white
+      padding: 10px 50px
+      background-color: variables.$color_secondary
+      border-radius: 20px
+    
 
   .home_house
     width: 50%
@@ -26,3 +53,6 @@
     position: absolute
     top: 20%
     left: 10%
+
+    @include mixins.mobile_menu
+      width: 30%
