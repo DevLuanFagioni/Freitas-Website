@@ -4,11 +4,11 @@
 92C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\js-yaml\lib\loader.js133260758601535636 0
 61C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src133260767515574273 1
 128C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\dom-serializer\node_modules\entities\lib\maps\decode.json133260744900440000 0
-88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_global.sass133260768010547816 0
+88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_global.sass133260870716316598 0
 100C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\svgo\plugins\plugins-types.ts133260758607384852 0
 105C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\type-fest\source\package-json.d.ts133260744849600000 0
 129C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\csso\node_modules\css-tree\lib\syntax\node\SelectorList.js133260758611361666 0
-62C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist133260814517283514 1
+62C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist133261358040732444 1
 83C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\entities\lib133260744946923312 1
 89C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\.package-lock.json133260758623706433 0
 117C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\mutationobserver.js133260744842840000 0
@@ -110,7 +110,7 @@
 138C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\List.js133260758606772137 0
 87C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\terser\lib\utils133260758604119791 1
 120C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\resolve\test\module_dir\zmodules\bbb\package.json133260758607797265 0
-85C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\pug\partials\header.pug133260814709065536 0
+85C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\pug\partials\header.pug133260875773171649 0
 111C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\source-map-support\source-map-support.js133260744847780000 0
 111C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@mischnic\json-sourcemap\dist\index.d.ts133260744801340000 0
 96C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\with\lib\reference.js.map133260758599551024 0
@@ -134,7 +134,7 @@
 116C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@swc\helpers\lib\_class_private_method_get.js133260744831150000 0
 80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\callsites133260744922866189 1
 91C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\pug-runtime\build.js133260758597233509 0
-88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_header.sass133260768473479897 0
+88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_header.sass133261358039298800 0
 86C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\pug\partials\contact.pug133260766612776783 0
 109C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\promise\setimmediate\es6-extensions.js133260758603344007 0
 88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@babel\parser\lib133260758599897947 1
@@ -151,7 +151,7 @@
 91C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\escape-string-regexp133260744923420782 1
 80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\svgo\dist133260758606103265 1
 94C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\lines-and-columns\build133260744947623366 1
-88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_mixins.sass133260784789333228 0
+88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\sass\partials\_mixins.sass133260864454566652 0
 113C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\script-defer.js133260744842840000 0
 88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\mdn-data\index.js133260758598138855 0
 114C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\notifications.js133260744842840000 0
@@ -177,7 +177,7 @@
 116C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\posthtml\node_modules\posthtml-parser\license133260744832790000 0
 119C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\optimizer-svgo\node_modules\csso\LICENSE133260758598171942 0
 86C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\promise\core.js133260758598171942 0
-79C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\css\style.css.map133260809914938222 0
+79C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\css\style.css.map133261358039817881 0
 106C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@babel\types\lib\clone\cloneDeep.js133260758603564590 0
 85C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\pug\partials\footer.pug133260765802403834 0
 90C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\terser\CHANGELOG.md133260758606066803 0
@@ -213,7 +213,7 @@
 105C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\css-tree\lib\syntax\atrule\page.js133260758611125283 0
 114C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\css-scrollbar.js133260744842840000 0
 99C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\node-releases\data\processed133260744965507064 1
-75C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\css\style.css133260809915088351 0
+75C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\src\css\style.css133261358039837088 0
 102C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\css-select\lib\compile.d.ts.map133260758603130001 0
 88C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\lines-and-columns133260744923830208 1
 91C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\electron-to-chromium133260744923352962 1
@@ -749,7 +749,7 @@
 83C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\is-json\test133260744947372550 1
 90C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\react-error-overlay133260744944600614 1
 100C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\promise\setimmediate\index.js133260758603554637 0
-80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.de5c0784.js133260814384972317 0
+80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.de5c0784.js133260876339867569 0
 122C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\workers\test\integration\workerfarm\ping.js133260744808190000 0
 91C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\term-size\index.d.ts133260744816010000 0
 102C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\regions\MM.js133260744842840000 0
@@ -1350,7 +1350,7 @@
 151C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\SelectorList.js133260758608568324 0
 99C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\workers\lib\index.js133260744808190000 0
 105C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\type-fest\source\set-optional.d.ts133260744849600000 0
-73C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.html133260814515726370 0
+73C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.html133260876340128573 0
 108C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\type-fest\source\set-return-type.d.ts133260744849600000 0
 90C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\terser\node_modules133260758611934391 1
 111C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\websockets.js133260744842840000 0
@@ -3460,7 +3460,7 @@
 117C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\csso\node_modules\css-tree\lib\syntax\function133260758611784193 1
 153C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\main.js133260744846270000 0
 117C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\csso\node_modules\css-tree\lib\syntax\index.js133260758610614864 0
-82C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\pug.54d66565.js.map133260814517273685 0
+82C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\pug.54d66565.js.map133260876338885931 0
 116C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\transformer-css\lib\CSSTransformer.js133260744787710000 0
 113C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\csso\node_modules\css-tree\lib\syntax\node133260758611844192 1
 96C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\fs-search\LICENSE133260744806500000 0
@@ -4963,7 +4963,7 @@
 123C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\viewport-unit-variants.js133260744842840000 0
 110C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\wake-lock.js133260744842840000 0
 111C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\web-serial.js133260744842840000 0
-80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\logo.648f5d62.jpg133260814384862336 0
+80C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\logo.648f5d62.jpg133260876339686037 0
 129C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor133260758606887133 1
 104C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\utils\test\config.test.js133260744765340000 0
 109C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\caniuse-lite\data\features\webauthn.js133260744842840000 0
@@ -5324,7 +5324,7 @@
 136C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\Value.js133260758605339688 0
 105C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\utils\test\input\sourcemap133260744968175255 1
 115C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\utils\test\input\sourcemap\inline.js133260744765340000 0
-84C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.de5c0784.js.map133260814385015289 0
+84C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.de5c0784.js.map133260876339912000 0
 107C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\transformer-posthtml\LICENSE133260744797020000 0
 121C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133260744765340000 0
 127C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133260744765340000 0
@@ -6679,6 +6679,6 @@
 82C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\.bin\terser133260758612613504 0
 86C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\.bin\terser.cmd133260758612613504 0
 86C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\node_modules\.bin\terser.ps1133260758612613504 0
-81C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.c92073ef.css133260814384768709 0
-85C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.c92073ef.css.map133260814384892367 0
-78C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\pug.54d66565.js133260814517243484 0
+81C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.c92073ef.css133261358040682460 0
+85C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\index.c92073ef.css.map133261358040722530 0
+78C:\Users\comit\OneDrive\Documentos\projetos\sites\Freitas\dist\pug.54d66565.js133260876338785908 0

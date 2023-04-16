@@ -7,13 +7,58 @@ header
   background-color: #292828 
   
   nav
-    @include mixins.flex(row, center, space-between, none)
-    @include mixins.container
+    height: 100%
+    @include mixins.flex(row, center, space-around, none)
     
+    .header_logo
+      color: variables.$color_white
 
-    .nav-list
+    .nav_list
       list-style: none
-      @include mixins.flex(row,center,center,none)
+      @include mixins.flex(row,center,center,none)   
+
+      @include mixins.mobile_menu
+        position: absolute
+        top: 8vh
+        right: 0
+        width: 50vh
+        height: 92vh
+        background-color: #292828
+        @include mixins.flex(column,center,space-evenly,none)
+        opacity: 0
+        transition: opacity .5s ease
 
       li
         margin-left: 30px
+
+        @include mixins.mobile_menu
+          margin-left: 0
+        a
+          color: variables.$color_white
+
+    .nav_list.active
+      opacity: 1
+
+    .mobile_menu
+      cursor: pointer
+      display: none
+
+      @include mixins.mobile_menu
+        display: block
+
+      div
+        height: 2px
+        width: 30px
+        margin: 8px
+        background-color: variables.$color_white
+        transition: .5s
+
+      &.active .line1
+        transform: rotate(-45deg) translate(-8px, 8px)
+
+      &.active .line2
+        opacity: 0
+
+      &.active .line3 
+        transform: rotate(45deg) translate(-5px, -7px)  
+        
