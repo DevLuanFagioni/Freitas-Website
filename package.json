@@ -1,0 +1,16 @@
+{
+  "name": "freitas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/pug/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luan Fagioni",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
