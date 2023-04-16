@@ -1,0 +1,19 @@
+@use 'variables'
+@use 'mixins'
+
+header
+  width: 100%
+  height: 8vh
+  background-color: #292828 
+  
+  nav
+    @include mixins.flex(row, center, space-between, none)
+    @include mixins.container
+    
+
+    .nav-list
+      list-style: none
+      @include mixins.flex(row,center,center,none)
+
+      li
+        margin-left: 30px
