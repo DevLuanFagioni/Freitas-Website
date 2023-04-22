@@ -488,4 +488,70 @@ header nav .mobile_menu.active .line3 {
   margin-bottom: 15px;
 }
 
+#contact {
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  #contact {
+    flex-direction: column;
+  }
+}
+
+#contact .contact-content {
+  width: 50%;
+  padding: 0 7%;
+}
+
+@media (max-width: 900px) {
+  #contact .contact-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+#contact .contact-content h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+#contact .contact-content h1 i {
+  color: #ffb901;
+}
+
+#contact .contact-content a {
+  color: #000;
+  background-color: #ffb901;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 10px 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#contact .contact-image {
+  width: 50%;
+  height: 250px;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  #contact .contact-image {
+    width: 100%;
+  }
+}
+
+#contact .contact-image img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /*# sourceMappingURL=index.c92073ef.css.map */

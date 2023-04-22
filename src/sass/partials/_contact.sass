@@ -1,0 +1,50 @@
+@use 'variables'
+@use 'mixins'
+
+#contact
+  width: 100%
+  padding-top: 20px
+  @include mixins.flex(row, center,center,wrap)
+
+  @include mixins.mobile
+    flex-direction: column
+
+  .contact-content
+    width: 50%
+    @include mixins.container
+
+    @include mixins.mobile
+      width: 100%
+      text-align: center
+      margin-top: 30px
+
+    h1
+      font-size: variables.$subT_size
+      margin-bottom: 30px
+
+      i
+        color: variables.$color_secondary
+
+    a
+      display: inline-block
+      color: #000000
+      margin-right: 20px
+      padding: 10px 50px
+      background-color: variables.$color_secondary
+      border-radius: 20px
+      font-weight: bold
+
+
+  .contact-image
+    width: 50%
+    height: 250px
+    position: relative
+
+    @include mixins.mobile
+      width: 100%
+
+    img
+      width: 100%
+      position: absolute
+      bottom: 0
+      right: 0
