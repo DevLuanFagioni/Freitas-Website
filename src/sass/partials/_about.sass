@@ -1,0 +1,58 @@
+@use 'variables'
+@use 'mixins'
+
+#about
+  width: 100%
+  background: linear-gradient(333deg, rgba(0,15,55,1) 0%, rgba(2,100,155,1) 100%)
+  @include mixins.container
+  padding-top: 100px
+  padding-bottom: 100px
+  @include mixins.flex(row,center,center,wrap)
+
+  
+
+  .about_content
+    width: 50%
+    min-width: 320px
+
+    h1
+      color: variables.$color_white
+      margin-bottom: 20px
+      font-size: variables.$title_size
+
+    p
+      width: 70%
+      color: variables.$color_white
+      margin-bottom: 20px
+
+      @include mixins.mobile
+        width: 100%
+
+    a
+      display: inline-block
+      color: #000000
+      margin-right: 20px
+      padding: 10px 30px
+      background-color: variables.$color_secondary
+      border-radius: 20px
+      font-weight: bold
+
+      @include mixins.mobile
+        padding: 10px 20px
+    
+      i
+        margin-left: 10px
+
+
+  .about_slider
+    width: 50%
+    min-width: 320px
+    height: 100%
+
+    @include mixins.mobile
+      margin-bottom: 50px
+    
+    img
+      width: 80%
+      
+    

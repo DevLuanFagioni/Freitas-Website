@@ -234,6 +234,75 @@ header nav .mobile_menu.active .line3 {
   }
 }
 
+#about {
+  width: 100%;
+  background: linear-gradient(333deg, #000f37 0%, #02649b 100%);
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 7%;
+  display: flex;
+}
+
+#about .about_content {
+  width: 50%;
+  min-width: 320px;
+}
+
+#about .about_content h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+#about .about_content p {
+  width: 70%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  #about .about_content p {
+    width: 100%;
+  }
+}
+
+#about .about_content a {
+  color: #000;
+  background-color: #ffb901;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  #about .about_content a {
+    padding: 10px 20px;
+  }
+}
+
+#about .about_content a i {
+  margin-left: 10px;
+}
+
+#about .about_slider {
+  width: 50%;
+  min-width: 320px;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  #about .about_slider {
+    margin-bottom: 50px;
+  }
+}
+
+#about .about_slider img {
+  width: 80%;
+}
+
 #services {
   width: 100%;
   flex-direction: column;
