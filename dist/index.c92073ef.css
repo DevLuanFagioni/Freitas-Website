@@ -430,6 +430,7 @@ header nav .mobile_menu.active .line3 {
 
 #services .services_bottom .services_bottom_cards .services_bottom_card {
   width: 22%;
+  min-width: 200px;
   height: 230px;
   flex-direction: column;
   flex-wrap: none;
@@ -442,9 +443,17 @@ header nav .mobile_menu.active .line3 {
   box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
+@media (max-width: 1500px) {
+  #services .services_bottom .services_bottom_cards .services_bottom_card {
+    height: 250px;
+    margin-bottom: 80px;
+  }
+}
+
 @media (max-width: 900px) {
   #services .services_bottom .services_bottom_cards .services_bottom_card {
-    width: 320px;
+    width: 280px;
+    height: 230px;
     margin-bottom: 80px;
   }
 }
