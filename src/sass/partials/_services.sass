@@ -101,7 +101,7 @@
           margin-bottom: 80px
 
         div
-          width: 100px
+          width: 50%
           height: 100px
           border-radius: 20px
           background: linear-gradient(333deg, rgba(0,15,55,1) 0%, rgba(2,100,155,1) 100%)
@@ -111,8 +111,12 @@
           transform: translateX(50%)
           @include mixins.flex(row, center, center, none)
 
+          i
+            color: variables.$color_secondary
+            font-size: variables.$title_size
+
         h2
-          margin-bottom: 15px
+          margin-bottom: 10px
           color: variables.$color_primary
 
         p

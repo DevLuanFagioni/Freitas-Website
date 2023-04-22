@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
 * {
   margin: 0;
   padding: 0;
@@ -337,7 +338,7 @@ header nav .mobile_menu.active .line3 {
   }
 }
 #services .services_bottom .services_bottom_cards .services_bottom_card div {
-  width: 100px;
+  width: 50%;
   height: 100px;
   border-radius: 20px;
   background: linear-gradient(333deg, rgb(0, 15, 55) 0%, rgb(2, 100, 155) 100%);
@@ -351,8 +352,12 @@ header nav .mobile_menu.active .line3 {
   justify-content: center;
   flex-wrap: none;
 }
+#services .services_bottom .services_bottom_cards .services_bottom_card div i {
+  color: #ffb901;
+  font-size: 2.5rem;
+}
 #services .services_bottom .services_bottom_cards .services_bottom_card h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #022279;
 }
 #services .services_bottom .services_bottom_cards .services_bottom_card p {
