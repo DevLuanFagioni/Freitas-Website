@@ -31,3 +31,9 @@ const mobileNavbar = new MobileNavbar(
   ".nav_list li",
 );
 mobileNavbar.init();
+
+
+
+const dataAtual = new Date();
+const anoAtual = dataAtual.getFullYear();
+document.getElementById("year_copy").innerHTML = `&copy; ${anoAtual} `;

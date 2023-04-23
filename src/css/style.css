@@ -492,4 +492,48 @@ header nav .mobile_menu.active .line3 {
   right: 0;
 }
 
+footer {
+  width: 100%;
+  background: linear-gradient(333deg, rgb(0, 15, 55) 0%, rgb(2, 100, 155) 100%);
+  padding: 0 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .footer_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+}
+@media (max-width: 900px) {
+  footer .footer_logo {
+    display: none;
+  }
+}
+footer .footer_logo p {
+  font-size: 2rem;
+  color: #ffb901;
+  font-weight: bold;
+}
+footer .footer_logo p span {
+  color: #ffffff;
+}
+@media (max-width: 900px) {
+  footer .footer_logo p {
+    font-size: 1.2rem;
+  }
+}
+footer .footer_copy {
+  color: #ffffff;
+}
+footer .footer_copy a {
+  color: #ffb901;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -20,5 +20,8 @@ class MobileNavbar {
 }
 const mobileNavbar = new MobileNavbar(".mobile_menu", ".nav_list", ".nav_list li");
 mobileNavbar.init();
+const dataAtual = new Date();
+const anoAtual = dataAtual.getFullYear();
+document.getElementById("year_copy").innerHTML = `&copy; ${anoAtual} `;
 
 //# sourceMappingURL=index.de5c0784.js.map

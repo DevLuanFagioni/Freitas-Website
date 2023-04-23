@@ -1,0 +1,33 @@
+@use 'variables'
+@use 'mixins'
+
+
+footer
+  width: 100%
+  background: linear-gradient(333deg, rgba(0,15,55,1) 0%, rgba(2,100,155,1) 100%)
+  @include mixins.container
+  padding-top: 30px
+  padding-bottom: 30px
+  @include mixins.flex(row, center, space-between, wrap)
+  
+
+  .footer_logo
+      @include mixins.flex(row,center,center,none)
+      @include mixins.mobile
+        display: none
+
+      p
+        font-size: variables.$subT_size
+        color: variables.$color_secondary
+        font-weight: bold
+        span
+          color: variables.$color_white
+
+        @include mixins.mobile
+         font-size: variables.$text_size
+
+  .footer_copy
+    color: variables.$color_white
+
+    a
+      color: variables.$color_secondary
