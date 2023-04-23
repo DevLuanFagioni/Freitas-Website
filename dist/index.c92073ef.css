@@ -319,7 +319,7 @@ header nav .mobile_menu.active .line3 {
 
 @media (max-width: 900px) {
   #about .about_content a {
-    padding: 10px 20px;
+    padding: 10px;
   }
 }
 
@@ -421,6 +421,12 @@ header nav .mobile_menu.active .line3 {
 
 #services .services_top .services_top_cards div img:hover {
   transform: translateX(50%)scale(1.1);
+}
+
+@media (max-width: 900px) {
+  #services .services_top .services_top_cards div img {
+    top: -70px;
+  }
 }
 
 #services .services_top .services_top_cards div h1 {
