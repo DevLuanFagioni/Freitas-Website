@@ -38,10 +38,14 @@
 
     a 
       margin-top: 10px
-      color: variables.$color_white
+      color: #000000
       padding: 10px 50px
       background-color: variables.$color_secondary
       border-radius: 20px
+      font-weight: bold
+
+      &:hover
+        @include mixins.hover_btn
     
 
   .home_house
@@ -49,6 +53,8 @@
     position: absolute
     bottom: -14%
     right: 0
+    &:hover
+      @include mixins.hover_image2
 
     @include mixins.mobile
       bottom: -5%

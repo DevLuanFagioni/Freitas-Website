@@ -48,6 +48,8 @@
           top: -50px
           right: 50%
           transform: translateX(50%)
+          &:hover
+            transform: translateX(50%) scale(1.1)
 
         h1
           margin-bottom: 20px
@@ -64,6 +66,9 @@
           background-color: variables.$color_secondary
           border-radius: 20px
           font-weight: bold
+
+          &:hover
+            @include mixins.hover_btn
 
   .services_bottom
     margin-top: 80px
@@ -118,9 +123,13 @@
           transform: translateX(50%)
           @include mixins.flex(row, center, center, none)
 
+          &:hover i
+            transform: scale(1.8) rotate(15deg)
+
           i
             color: variables.$color_secondary
             font-size: variables.$title_size
+           
 
         h2
           margin-bottom: 10px

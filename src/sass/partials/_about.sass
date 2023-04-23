@@ -37,6 +37,9 @@
       border-radius: 20px
       font-weight: bold
 
+      &:hover
+        @include mixins.hover_btn
+
       @include mixins.mobile
         padding: 10px 20px
     
@@ -54,5 +57,7 @@
     
     img
       width: 80%
+      &:hover
+        @include mixins.hover_image2
       
     

@@ -4,6 +4,29 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+h1:hover, h2:hover, span:hover {
+  letter-spacing: 1px;
+}
+
+::selection {
+  background-color: #ffb901;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #022279;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffb901;
+  border-radius: 20px;
 }
 
 header {
@@ -55,7 +78,7 @@ header nav .nav_list {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 100%;
+    width: 60%;
     height: 92vh;
     background-image: linear-gradient(333deg, rgb(0, 15, 55) 0%, rgb(2, 100, 155) 100%);
     display: flex;
@@ -172,16 +195,25 @@ header nav .mobile_menu.active .line3 {
 }
 #home .home_content a {
   margin-top: 10px;
-  color: #ffffff;
+  color: #000000;
   padding: 10px 50px;
   background-color: #ffb901;
   border-radius: 20px;
+  font-weight: bold;
+}
+#home .home_content a:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  filter: brightness(110%);
 }
 #home .home_house {
   width: 50%;
   position: absolute;
   bottom: -14%;
   right: 0;
+}
+#home .home_house:hover {
+  transform: scale(0.95);
 }
 @media (max-width: 900px) {
   #home .home_house {
@@ -245,6 +277,11 @@ header nav .mobile_menu.active .line3 {
   border-radius: 20px;
   font-weight: bold;
 }
+#about .about_content a:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  filter: brightness(110%);
+}
 @media (max-width: 900px) {
   #about .about_content a {
     padding: 10px 20px;
@@ -265,6 +302,9 @@ header nav .mobile_menu.active .line3 {
 }
 #about .about_slider img {
   width: 80%;
+}
+#about .about_slider img:hover {
+  transform: scale(0.95);
 }
 
 #services {
@@ -333,6 +373,9 @@ header nav .mobile_menu.active .line3 {
   right: 50%;
   transform: translateX(50%);
 }
+#services .services_top .services_top_cards div img:hover {
+  transform: translateX(50%) scale(1.1);
+}
 #services .services_top .services_top_cards div h1 {
   margin-bottom: 20px;
   color: #022279;
@@ -348,6 +391,11 @@ header nav .mobile_menu.active .line3 {
   background-color: #ffb901;
   border-radius: 20px;
   font-weight: bold;
+}
+#services .services_top .services_top_cards div a:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  filter: brightness(110%);
 }
 #services .services_bottom {
   margin-top: 80px;
@@ -422,6 +470,9 @@ header nav .mobile_menu.active .line3 {
   justify-content: center;
   flex-wrap: none;
 }
+#services .services_bottom .services_bottom_cards .services_bottom_card div:hover i {
+  transform: scale(1.8) rotate(15deg);
+}
 #services .services_bottom .services_bottom_cards .services_bottom_card div i {
   color: #ffb901;
   font-size: 2.5rem;
@@ -475,6 +526,11 @@ header nav .mobile_menu.active .line3 {
   border-radius: 20px;
   font-weight: bold;
 }
+#contact .contact-content a:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  filter: brightness(110%);
+}
 #contact .contact-image {
   width: 50%;
   height: 250px;
@@ -490,6 +546,9 @@ header nav .mobile_menu.active .line3 {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+#contact .contact-image img:hover {
+  filter: grayscale(50%);
 }
 
 footer {
